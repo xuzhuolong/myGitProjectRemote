@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>mysite</title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		body{
+			font-size: 24px;
+		}
+		#nav{
+			text-align: center;
+			width: 1700px;
+			height: 800px;
+		}
+	/*左侧部分*/
+		#nov{
+			float: left;
+			width: 200px;
+			height: 820px;
+			background-color: #6cf;
+			margin-right: 5px;
+		}
+		#nov img{
+			width: 190px;
+			height: 70px;
+			text-align: center;
+		}
+		#nov a{
+			text-decoration-line: none;
+		}
+		#nov a:hover{
+			text-decoration-line: underline;
+			color: red;
+		}
+	/*导航栏部分*/
+		#no{
+			float: right;
+			width: 1495px;
+			height: 800px;
+			background-color: #cff;
+		}
+		#header{
+			height: 70px;
+			background-color: #eee;
+			margin-bottom: 5px;
+
+		}
+		#main{
+			height: 545px;
+			background-color: #cff;
+			margin-bottom: 5px;
+		}
+		.lef{
+			float: left;
+		}
+		#header li{
+			float: left;
+			margin: 0;
+			line-height: 70px;
+		}
+		#header li a{
+			font-weight: bold;
+			color: #666;
+			text-decoration-line: none;
+			border-right: 1px solid #b2b2b2;
+			padding: 0 15px;
+		}
+		#header li a:hover{
+			color: red;
+			text-decoration-line: underline;
+		}
+		#header ul li{
+			list-style-type: none;
+		}
+		/*底部*/
+		#footer{
+			height: 195px;
+			background-color: #6cf;
+		}
+		#footer img{
+			height: 180px;
+			width: 316px;
+			float: left;
+			margin: 5px;
+			transition: all 0.3s linear;
+			transform-style: preserve-3d;
+		}
+		#footer img:hover{
+			transform: scale(1.04);
+			transform: rotateZ(30deg);
+			transform: rotateY(30deg);
+			perspective: 100px;
+		}
+		.foot img{
+			height: 180px;
+			width: 430px;
+			margin: 5px;
+		}
+		/**/
+		/*右侧*/
+		#ri{
+			width: 215px;
+			height: 550px;
+			background-color: #6cf;
+			float: right;
+		}
+		/**/
+	/*主页新闻部分*/
+		.lyy{
+			font-size: 19px;
+		}
+		#lef{
+			width: 500px;
+			text-decoration-line: none;
+			border-right: 0 solid #b2b2b2;
+			padding: 0 15px;
+			float: left;
+		}
+		#lef li a{
+			text-decoration-line: none;
+			text-shadow: 0 0 2px #ff0000;
+		}
+		#lef li a:hover{
+			text-decoration-line: underline;
+			color: red;
+		}
+		#lef ul li{
+			list-style-type: none;
+		}
+		.blod{
+			font-weight: bold;
+		}
+		#news{
+			font-size: 0;
+			overflow: auto;
+			float: left;
+		}
+		#news img{
+			height: 100px;
+			width: 175px;
+			margin-left: 5px;
+			border: 2px solid #0cf;
+			padding: 0;
+		}
+		#new2{
+			text-align: center;
+			font-size: 0;
+			overflow: auto;
+		}
+		#new2 img{
+			height: 114px;
+			width: 200px;
+			margin-left: 5px;
+			border: 2px solid #0cf;
+			padding: 1px;
+		}
+		#header .oppo a{
+			border:none;
+		}
+	</style>
+</head>
+<body>
+	<div id="nav">
+		<div id="nov" class="lef">
+			<a href="http://www.ifeng.com/"><img src="../picture/OIP.jpg"></a>
+			<h4><a href="#">评论</a>/<a href="#">政务</a></h4>
+		</div>
+		<div id="no">
+			<div id="header">
+				<ul class="lef">
+					<li><a href="#">首页</a></li>
+					<li><a href="https://news.ifeng.com/" target="_black">资讯</a></li>
+					<li><a href="https://v.ifeng.com/" target="_black">视频</a></li>
+					<li><a href="https://zhibo.ifeng.com/?_cpb_fzb_6" target="_black">直播</a></li>
+					<li><a href="https://finance.ifeng.com/" target="_black">财经</a></li>
+					<li><a href="https://ent.ifeng.com/" target="_black">娱乐</a></li>
+					<li><a href="https://sports.ifeng.com/" target="_black">体育</a></li>
+					<li><a href="https://culture.ifeng.com/" target="_black">文化</a></li>
+					<li><a href="https://fashion.ifeng.com/" target="_black">时尚</a></li>
+					<li><a href="https://auto.ifeng.com/" target="_black">汽车</a></li>
+					<li><a href="https://xa.house.ifeng.com/" target="_black">房产</a></li>
+					<li><a href="https://tech.ifeng.com/" target="_black">科技</a></li>
+					<li><a href="https://pit.ifeng.com/" target="_black">智库</a></li>
+					<li><a href="https://feng.ifeng.com/" target="_black">大风号</a></li>
+					<li><a href="https://yc.ifeng.com/?_bookch=top" target="_black">小说</a></li>
+					<li><a href="https://fo.ifeng.com/" target="_black">佛教</a></li>
+					<li class="oppo"><a href="../OPPO/index.html" target="_black">OPPO</a></li>
+				</ul>
+			</div>
+			<div id="main">
+				<div id="mi">
+					<div id="lef">
+						<ul class="lyy">
+							<h2>要闻</h2>
+							<li class="blod"><a href="https://news.ifeng.com/c/7ttPlgfbLLk">把医者仁心与制度初心凝结在一起</a></li>
+							<li><a href="https://news.ifeng.com/c/7ttPlgfbLLk">四部门：疫情期间这七类涉医违法犯罪将依法严惩</a></li>
+							<li><a href="#">财务部、税务总局：免征部分行政事业性收费和政府性基金</a></li>
+							<li><a href="https://news.ifeng.com/c/7ttZCznQKZx">新型管状病毒感染的肺炎防治营养膳食指导</a></li>
+							<li><a href="https://news.ifeng.com/c/7ttjB5h0vaK">市场监管总局：野生动物非法交易顶格处罚</a></li>
+							<li><a href="#">新型肺炎“自愈”护士的独白</a></li>
+							<li class="blod"><a href="https://news.ifeng.com/c/special/7sqjPxP22fg">全国确诊新型肺炎34662例</a><span>&nbsp;&nbsp;&nbsp;</span><a href="https://news.ifeng.com/c/special/7tPlDSzDgVk"> 疫情实时动态</a></li>
+							<li><a href="https://news.ifeng.com/c/7ttjoKZFAhs">定了！“新型肺炎”英文名简称“NCP”</a></li>
+							<li><a href="#">武汉雷神山医院交付使用</a></li>
+							<audio src="../音乐/Horizon.mp3" controls="controls">
+								浏览器不支持HTML5:audio
+							</audio>
+						</ul>
+					</div>
+					<div id="news" >
+						<img src="../picture/-2fcd94729f7f4d85.jpg"></div>
+					<div id="news">
+						<img src="../picture/-3d6b733cf375cb65.jpg"></div>
+					<div id="news">
+						<img src="../picture/60ee88acfe2fa44a.jpg"></div>
+					<div id="news">
+						<img src="../picture/-5b353e82dba22fc.jpg"></div>
+				</div>
+				<div id="ri">
+					<div id="new2" >
+						<img src="../4K/1581300644933.jpeg"></div>
+					<div id="new2">
+						<img src="../4K/阿尔卑斯山夜晚星空风景4k壁纸3840x2160_彼岸图网.jpg"></div>
+					<div id="new2">
+						<img src="../4K/东方幻想乡灵梦6k动漫图片_彼岸图网.jpg"></div>
+					<div id="new2">
+						<img src="../4K/夜灯 海边城市夜景 摩天轮 4k风景壁纸_彼岸图网.jpg"></div>
+				</div>
+			</div>
+			<div id="footer">
+				<img src="../4k/大乔-守护之力 王者荣耀4k游戏壁纸3840x2160_彼岸图网.jpg">
+				<img src="../4K/公孙离-无限星赏官 王者荣耀4k壁纸3840x2160_彼岸图网.jpg">
+				<img src="../4K/王昭君-偶像歌手 王者荣耀壁纸_彼岸图网.jpg">
+			</div>
+			<div class="foot">
+				<img src="../4K/晚萤 娜可露露 王者荣耀3440x1440壁纸_彼岸图网.jpg">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
